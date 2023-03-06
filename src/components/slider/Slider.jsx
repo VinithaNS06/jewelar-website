@@ -1,73 +1,94 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
-import "./slider.css";
-
-// import required modules
-import { Parallax, Pagination, Navigation } from "swiper";
-
+// import { useNavigate } from "react-router-dom";
+import config from "../../config.json";
 const Slider = () => {
+  // const accesstoken = JSON.parse(localStorage.getItem("user"));
+  const [sliderlist, setSliderList] = useState([]);
+  // // const navigate = useNavigate();
+  // useEffect(() => {
+  //   getSliderDetails();
+  // }, []);
+
+  // const getSliderDetails = async () => {
+  //   let slideresult = await fetch(config.apiurl + "api/sliders/getslider");
+  //   slideresult = await slideresult.json();
+  //   setSliderList(slideresult.data.results);
+  // };
+
+  // const [content, setContent] = useState("");
+  // const [title, setTitle] = useState("");
+  // const [subtitle, setSubTitle] = useState("");
+  // const [updateid, setUpdateid] = useState("");
+  // const [error, setError] = useState(false);
+
+  // const handleCatsubmit = async () => {
+  //   if (!content) {
+  //     setError(true);
+  //     return false;
+  //   }
+  //   let apicaturl = "";
+  //   let methodapi = "";
+  //   if (updateid) {
+  //     apicaturl = config.apiurl + "api/sliders/" + updateid;
+  //     methodapi = "put";
+  //   } else {
+  //     apicaturl = config.apiurl + "api/sliders/create";
+  //     methodapi = "post";
+  //   }
+
+  //   let addcat = await fetch(apicaturl, {
+  //     method: methodapi,
+  //     body: JSON.stringify({ content, title, subtitle }),
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //       Authorization: "bearer " + accesstoken.data.access_token,
+  //     },
+  //   });
+
+  //   let addcatrs = await addcat.json();
+  //   if (addcatrs.status == "true") {
+  //     getSliderDetails();
+  //   }
+  // };
+
+  // const getSlideredit = async (editid) => {
+  //   let cateditdetails = await fetch(config.apiurl + "api/sliders/" + editid, {
+  //     method: "get",
+  //     headers: {
+  //       Authorization: "bearer " + accesstoken.data.access_token,
+  //     },
+  //   });
+  //   cateditdetails = await cateditdetails.json();
+  //   setContent(cateditdetails.data[0].content);
+  //   setTitle(cateditdetails.data[0].title);
+  //   setSubTitle(cateditdetails.data[0].subtitle);
+  //   setUpdateid(cateditdetails.data[0]._id);
+  // };
+
+  // const deleteStaff = async (id) => {
+  //   let deletecat = await fetch(config.apiurl + "api/notifications/" + id, {
+  //     method: "Delete",
+  //     headers: {
+  //       Authorization: "bearer " + accesstoken.data.access_token,
+  //     },
+  //   });
+  //   deletecat = await deletecat.json();
+  //   if (deletecat) {
+  //     getSliderDetails();
+  //   }
+  // };
   return (
     <>
-      <Swiper
-        speed={600}
-        parallax={true}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Parallax, Pagination, Navigation]}
-        className="mySwiper"
-      >
+      <Swiper>
         <SwiperSlide>
-          <div className="slider_area ">
+          <div className="slider_area owl-carousel">
             <div className="single_slider">
-              <img src="assets/img/slider/slider1.jpg" alt="" />
-              <div className="container">
-                <div className="row align-items-center">
-                  <div className="col-12">
-                    <div className="slider_content">
-                      <p>exclusive offer -10% off this week</p>
-                      <h1>jewelry arrivals</h1>
-                      <p className="slider_price">
-                        starting at <span>$2.199.oo</span>
-                      </p>
-                      <a className="button" href="shop.html">
-                        shopping now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slider_area ">
-            <div className="single_slider">
-              <img src="assets/img/slider/slider2.jpg" alt="" />
-              <div className="container">
-                <div className="row align-items-center">
-                  <div className="col-12">
-                    <div className="slider_content">
-                      <p>exclusive offer -10% off this week</p>
-                      <h1>engagement ring</h1>
-                      <p className="slider_price">
-                        starting at <span>$2.199.oo</span>
-                      </p>
-                      <a className="button" href="shop.html">
-                        shopping now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {sliderlist &&
+                sliderlist.map((item, index) => (
+                  <img src={item.image} alt="" key={index} />
+                ))}
             </div>
           </div>
         </SwiperSlide>

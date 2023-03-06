@@ -139,7 +139,7 @@ const Header = () => {
                         <h3>cart</h3>
                       </div>
                       <div className="mini_cart_close">
-                        <a href="javascript:void(0)">
+                        <a>
                           <i className="ion-android-close"></i>
                         </a>
                       </div>

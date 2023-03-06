@@ -78,14 +78,14 @@ const ProductSection = () => {
                               data-slick-index="-6"
                               aria-hidden="true"
                               tabIndex="-1"
-                              style={{ width: "224px" }}
+                              style={{ width: "224 px" }}
                             >
                               <div>
                                 <div
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -232,7 +232,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -382,7 +382,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -524,7 +524,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -674,7 +674,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -816,7 +816,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -966,7 +966,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -1105,7 +1105,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -1258,7 +1258,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -1403,7 +1403,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -1553,7 +1553,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -1700,7 +1700,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -1850,7 +1850,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -1997,7 +1997,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -2147,7 +2147,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -2289,7 +2289,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -2439,7 +2439,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -2581,7 +2581,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -2731,7 +2731,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -2870,7 +2870,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -3023,7 +3023,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -3168,7 +3168,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -3318,7 +3318,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -3465,7 +3465,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -3615,7 +3615,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -3762,7 +3762,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -3912,7 +3912,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -4054,7 +4054,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -4204,7 +4204,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -4346,7 +4346,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -4496,7 +4496,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -4635,7 +4635,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -4788,7 +4788,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -4933,7 +4933,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -5083,7 +5083,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -5230,7 +5230,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -5412,7 +5412,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -5559,7 +5559,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -5709,7 +5709,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -5848,7 +5848,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -5998,7 +5998,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -6140,7 +6140,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -6293,7 +6293,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -6432,7 +6432,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -6585,7 +6585,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -6730,7 +6730,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -6880,7 +6880,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -7025,7 +7025,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -7175,7 +7175,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -7322,7 +7322,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -7472,7 +7472,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -7611,7 +7611,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -7761,7 +7761,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -7903,7 +7903,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -8056,7 +8056,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -8195,7 +8195,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -8348,7 +8348,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -8493,7 +8493,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -8643,7 +8643,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -8788,7 +8788,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -8938,7 +8938,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -9085,7 +9085,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -9235,7 +9235,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -9374,7 +9374,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -9524,7 +9524,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -9666,7 +9666,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -9819,7 +9819,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -9958,7 +9958,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -10111,7 +10111,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -10256,7 +10256,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -10406,7 +10406,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -10733,7 +10733,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -11030,7 +11030,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -11172,7 +11172,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -11319,7 +11319,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -11461,7 +11461,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -11611,7 +11611,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -11753,7 +11753,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -11903,7 +11903,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -12048,7 +12048,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -12201,7 +12201,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -12346,7 +12346,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -12496,7 +12496,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -12643,7 +12643,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -12793,7 +12793,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -12935,7 +12935,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -13082,7 +13082,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -13224,7 +13224,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -13374,7 +13374,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -13516,7 +13516,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -13666,7 +13666,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -13811,7 +13811,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -13964,7 +13964,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -14109,7 +14109,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -14259,7 +14259,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -14406,7 +14406,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -14556,7 +14556,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -14698,7 +14698,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -14845,7 +14845,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -14987,7 +14987,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -15137,7 +15137,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -15279,7 +15279,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -15429,7 +15429,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -15574,7 +15574,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -15727,7 +15727,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">
@@ -15872,7 +15872,7 @@ const ProductSection = () => {
                                   className="custom-col-5"
                                   style={{
                                     width: "100%",
-                                    display: "inlineBlock"
+                                    display: "inlineBlock",
                                   }}
                                 >
                                   <div className="single_product">

@@ -2145,7 +2145,7 @@ const ProductSectionBottom = () => {
                           data-slick-index="10"
                           aria-hidden="true"
                           tabIndex="-1"
-                          style={{ Width: "224px;" }}
+                          style={{ width: "224px" }}
                         >
                           <div className="single_product">
                             <div className="product_thumb">
@@ -3325,7 +3325,7 @@ const ProductSectionBottom = () => {
                           data-slick-index="19"
                           aria-hidden="true"
                           tabIndex="-1"
-                          style={{ Width: "224px;" }}
+                          style={{ width: "224px" }}
                         >
                           <div className="single_product">
                             <div className="product_thumb">
@@ -3458,7 +3458,7 @@ const ProductSectionBottom = () => {
                           data-slick-index="20"
                           aria-hidden="true"
                           tabIndex="-1"
-                          style={{ Width: "224px;" }}
+                          style={{ width: "224px" }}
                         >
                           <div className="single_product">
                             <div className="product_thumb">
@@ -3591,7 +3591,7 @@ const ProductSectionBottom = () => {
                           data-slick-index="21"
                           aria-hidden="true"
                           tabIndex="-1"
-                          style={{ Width: "224px;" }}
+                          style={{ width: "224px" }}
                         >
                           <div className="single_product">
                             <div className="product_thumb">
@@ -3724,7 +3724,7 @@ const ProductSectionBottom = () => {
                           data-slick-index="22"
                           aria-hidden="true"
                           tabIndex="-1"
-                          style={{ Width: "224px;" }}
+                          style={{ width: "224px" }}
                         >
                           <div className="single_product">
                             <div className="product_thumb">

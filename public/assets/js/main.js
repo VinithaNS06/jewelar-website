@@ -287,13 +287,13 @@
         dots:true,
     });
     
-    /*--- Magnific Popup---*/
-    $('.instagram_pupop').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
+    // /*--- Magnific Popup---*/
+    // $('.instagram_pupop').magnificPopup({
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true
+    //     }
+    // });
 
     /*--- Magnific Popup Video---*/
     $('.video_popup').magnificPopup({
@@ -546,61 +546,61 @@
 
  
     
-    /*instagram activation*/
-    $.instagramFeed({
-        'username': 'portfolio.devitems',
-        'container': "#instagramFeed",
-        'display_profile': false,
-        'display_biography': false,
-        'display_gallery': true,
-        'styling': false,
-        'items': 8,
-        "image_size": "480",
-        'items_per_row': 6,
-        'margin': 2,
-    });
+    // /*instagram activation*/
+    // $.instagramFeed({
+    //     'username': 'portfolio.devitems',
+    //     'container': "#instagramFeed",
+    //     'display_profile': false,
+    //     'display_biography': false,
+    //     'display_gallery': true,
+    //     'styling': false,
+    //     'items': 8,
+    //     "image_size": "480",
+    //     'items_per_row': 6,
+    //     'margin': 2,
+    // });
 
-    $('#instagramFeed').on("DOMNodeInserted", function (e) {
-        if (e.target.className == 'instagram_gallery') {
-            $("." + e.target.className).slick({
-                slidesToShow: 6,
+    // $('#instagramFeed').on("DOMNodeInserted", function (e) {
+    //     if (e.target.className == 'instagram_gallery') {
+    //         $("." + e.target.className).slick({
+    //             slidesToShow: 6,
                 
-                arrows: false,
-                 responsive: [
-                     {
-                      breakpoint: 1200,
-                      settings: {
-                        slidesToShow: 5
-                      }
-                    },
-                    {
-                      breakpoint: 992,
-                      settings: {
-                        slidesToShow: 4
-                      }
-                    },
-                    {
-                      breakpoint: 768,
-                      settings: {
-                        slidesToShow: 3
-                      }
-                    },
-                     {
-                      breakpoint: 576,
-                      settings: {
-                        slidesToShow: 2
-                      }
-                    },
-                    {
-                      breakpoint: 480,
-                      settings: {
-                        slidesToShow: 1
-                      }
-                    }
-                ]
-            })
-        }
-    });
+    //             arrows: false,
+    //              responsive: [
+    //                  {
+    //                   breakpoint: 1200,
+    //                   settings: {
+    //                     slidesToShow: 5
+    //                   }
+    //                 },
+    //                 {
+    //                   breakpoint: 992,
+    //                   settings: {
+    //                     slidesToShow: 4
+    //                   }
+    //                 },
+    //                 {
+    //                   breakpoint: 768,
+    //                   settings: {
+    //                     slidesToShow: 3
+    //                   }
+    //                 },
+    //                  {
+    //                   breakpoint: 576,
+    //                   settings: {
+    //                     slidesToShow: 2
+    //                   }
+    //                 },
+    //                 {
+    //                   breakpoint: 480,
+    //                   settings: {
+    //                     slidesToShow: 1
+    //                   }
+    //                 }
+    //             ]
+    //         })
+    //     }
+    // });
     
     
     

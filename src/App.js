@@ -2,16 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/Header';
 // import Slider from './components/slider/Slider';
-// import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import Slider from './components/slider/Slider';
 function App() {
   return (
     <div className="App">
       <Header/>
-     {/* <Router>
+     <Router>
         <Routes>
-          <Route path="/" element={<DefaultLayout/>}/>
+          <Route path="/slider" element={<Slider/>}/>
         </Routes>
-      </Router>  */}
+      </Router> 
     </div>
   );
 }

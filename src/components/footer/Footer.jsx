@@ -3,14 +3,14 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer class="footer_widgets">
-        <div class="container">
-          <div class="footer_top">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-8">
-                <div class="widgets_container contact_us">
+      <footer className="footer_widgets">
+        <div className="container">
+          <div className="footer_top">
+            <div className="row">
+              <div className="col-lg-4 col-md-6 col-sm-8">
+                <div className="widgets_container contact_us">
                   <h3>About Monsta</h3>
-                  <div class="footer_contact">
+                  <div className="footer_contact">
                     <p>Address: Your address goes here.</p>
                     <p>
                       Phone: <a href="tel:0123456789">0123456789</a>
@@ -19,38 +19,38 @@ const Footer = () => {
                     <ul>
                       <li>
                         <a href="#">
-                          <i class="fa fa-facebook"></i>
+                          <i className="fa fa-facebook"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-twitter"></i>
+                          <i className="fa fa-twitter"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="ion-social-rss"></i>
+                          <i className="ion-social-rss"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="ion-social-googleplus"></i>
+                          <i className="ion-social-googleplus"></i>
                         </a>
                       </li>
 
                       <li>
                         <a href="#">
-                          <i class="ion-social-youtube"></i>
+                          <i className="ion-social-youtube"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-2 col-md-6 col-sm-4 col-6">
-                <div class="widgets_container widget_menu">
+              <div className="col-lg-2 col-md-6 col-sm-4 col-6">
+                <div className="widgets_container widget_menu">
                   <h3>Information</h3>
-                  <div class="footer_menu">
+                  <div className="footer_menu">
                     <ul>
                       <li>
                         <a href="about.html">About Us</a>
@@ -74,10 +74,10 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-2 col-md-6 col-sm-5 col-6">
-                <div class="widgets_container widget_menu">
+              <div className="col-lg-2 col-md-6 col-sm-5 col-6">
+                <div className="widgets_container widget_menu">
                   <h3>My Account</h3>
-                  <div class="footer_menu">
+                  <div className="footer_menu">
                     <ul>
                       <li>
                         <a href="my-account.html">My Account</a>
@@ -102,50 +102,50 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 col-sm-7">
-                <div class="widgets_container product_widget">
+              <div className="col-lg-4 col-md-6 col-sm-7">
+                <div className="widgets_container product_widget">
                   <h3>Top Rated Products</h3>
-                  <div class="simple_product">
-                    <div class="simple_product_items">
-                      <div class="simple_product_thumb">
+                  <div className="simple_product">
+                    <div className="simple_product_items">
+                      <div className="simple_product_thumb">
                         <a href="#">
                           <img src="assets/img/s-product/product5.jpg" alt="" />
                         </a>
                       </div>
-                      <div class="simple_product_content">
-                        <div class="tag_cate">
+                      <div className="simple_product_content">
+                        <div className="tag_cate">
                           <a href="#">Clothing,</a>
                           <a href="#">Potato chips</a>
                         </div>
-                        <div class="product_name">
+                        <div className="product_name">
                           <h3>
                             <a href="#">Donec eu animal</a>
                           </h3>
                         </div>
-                        <div class="product_price">
-                          <span class="old_price">$86.00</span>
-                          <span class="current_price">$70.00</span>
+                        <div className="product_price">
+                          <span className="old_price">$86.00</span>
+                          <span className="current_price">$70.00</span>
                         </div>
                       </div>
                     </div>
-                    <div class="simple_product_items">
-                      <div class="simple_product_thumb">
+                    <div className="simple_product_items">
+                      <div className="simple_product_thumb">
                         <a href="#">
                           <img src="assets/img/s-product/product6.jpg" alt="" />
                         </a>
                       </div>
-                      <div class="simple_product_content">
-                        <div class="tag_cate">
+                      <div className="simple_product_content">
+                        <div className="tag_cate">
                           <a href="#">Women</a>
                         </div>
-                        <div class="product_name">
+                        <div className="product_name">
                           <h3>
                             <a href="#">Dummy animal</a>
                           </h3>
                         </div>
-                        <div class="product_price">
-                          <span class="old_price">$74.00</span>
-                          <span class="current_price">$69.00</span>
+                        <div className="product_price">
+                          <span className="old_price">$74.00</span>
+                          <span className="current_price">$69.00</span>
                         </div>
                       </div>
                     </div>
@@ -154,10 +154,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div class="footer_middel">
-            <div class="row">
-              <div class="col-12">
-                <div class="footer_middel_menu">
+          <div className="footer_middel">
+            <div className="row">
+              <div className="col-12">
+                <div className="footer_middel_menu">
                   <ul>
                     <li>
                       <a href="#">Home</a>
@@ -188,16 +188,16 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div class="footer_bottom">
-            <div class="row">
-              <div class="col-12">
-                <div class="copyright_area">
+          <div className="footer_bottom">
+            <div className="row">
+              <div className="col-12">
+                <div className="copyright_area">
                   <p>
                     &copy; 2021{" "}
-                    <a href="index.html" class="text-uppercase">
+                    <a href="index.html" className="text-uppercase">
                       MONSTA
                     </a>
-                    . Made with <i class="fa fa-heart"></i> by{" "}
+                    . Made with <i className="fa fa-heart"></i> by{" "}
                     <a target="_blank" href="https://www.hasthemes.com/">
                       HasThemes
                     </a>
