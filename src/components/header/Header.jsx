@@ -409,7 +409,7 @@ const Header = () => {
       {/* <!--header bottom end--> */}
       <Slider />
       <Banner />
-      {/* <ProductSection /> */}
+      <ProductSection />
       <BannerFullwidth />
       <ProductSectionBottom />
       <BlogSection />

@@ -1,99 +1,66 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+import config from "../../config.json";
+// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// import { useNavigate } from "react-router-dom";
-import config from "../../config.json";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import "./slider.css";
+
+// import required modules
+import { Pagination, Navigation } from "swiper";
 const Slider = () => {
-  // const accesstoken = JSON.parse(localStorage.getItem("user"));
+  const accesstoken = JSON.parse(localStorage.getItem("user"));
   const [sliderlist, setSliderList] = useState([]);
-  // // const navigate = useNavigate();
-  // useEffect(() => {
-  //   getSliderDetails();
-  // }, []);
+  useEffect(() => {
+    getSliderData();
+  }, []);
 
-  // const getSliderDetails = async () => {
-  //   let slideresult = await fetch(config.apiurl + "api/sliders/getslider");
-  //   slideresult = await slideresult.json();
-  //   setSliderList(slideresult.data.results);
-  // };
-
-  // const [content, setContent] = useState("");
-  // const [title, setTitle] = useState("");
-  // const [subtitle, setSubTitle] = useState("");
-  // const [updateid, setUpdateid] = useState("");
-  // const [error, setError] = useState(false);
-
-  // const handleCatsubmit = async () => {
-  //   if (!content) {
-  //     setError(true);
-  //     return false;
-  //   }
-  //   let apicaturl = "";
-  //   let methodapi = "";
-  //   if (updateid) {
-  //     apicaturl = config.apiurl + "api/sliders/" + updateid;
-  //     methodapi = "put";
-  //   } else {
-  //     apicaturl = config.apiurl + "api/sliders/create";
-  //     methodapi = "post";
-  //   }
-
-  //   let addcat = await fetch(apicaturl, {
-  //     method: methodapi,
-  //     body: JSON.stringify({ content, title, subtitle }),
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //       Authorization: "bearer " + accesstoken.data.access_token,
-  //     },
-  //   });
-
-  //   let addcatrs = await addcat.json();
-  //   if (addcatrs.status == "true") {
-  //     getSliderDetails();
-  //   }
-  // };
-
-  // const getSlideredit = async (editid) => {
-  //   let cateditdetails = await fetch(config.apiurl + "api/sliders/" + editid, {
-  //     method: "get",
-  //     headers: {
-  //       Authorization: "bearer " + accesstoken.data.access_token,
-  //     },
-  //   });
-  //   cateditdetails = await cateditdetails.json();
-  //   setContent(cateditdetails.data[0].content);
-  //   setTitle(cateditdetails.data[0].title);
-  //   setSubTitle(cateditdetails.data[0].subtitle);
-  //   setUpdateid(cateditdetails.data[0]._id);
-  // };
-
-  // const deleteStaff = async (id) => {
-  //   let deletecat = await fetch(config.apiurl + "api/notifications/" + id, {
-  //     method: "Delete",
-  //     headers: {
-  //       Authorization: "bearer " + accesstoken.data.access_token,
-  //     },
-  //   });
-  //   deletecat = await deletecat.json();
-  //   if (deletecat) {
-  //     getSliderDetails();
-  //   }
-  // };
+  const getSliderData = async () => {
+    let sliderresult = await fetch(config.apiurl + "api/sliders/getslider", {
+      method: "get",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: "bearer " + accesstoken.data.access_token,
+      },
+    });
+    sliderresult = await sliderresult.json();
+    setSliderList(sliderresult.data.results);
+    console.log(sliderresult.data.results);
+  };
   return (
-    <>
-      <Swiper>
-        <SwiperSlide>
-          <div className="slider_area owl-carousel">
-            <div className="single_slider">
-              {sliderlist &&
-                sliderlist.map((item, index) => (
-                  <img src={item.image} alt="" key={index} />
-                ))}
+    <Swiper
+      pagination={{
+        clickable: true,
+      }}
+      // navigation={true}
+      modules={[Pagination]}
+      className="mySwiper"
+    >
+      {sliderlist &&
+        sliderlist.map((item, index) => (
+          <SwiperSlide>
+            <div className="slider_area">
+              <div className="single_slider" key={index}>
+                <img src={config.apiurl + item.image} alt={item.title} />
+              </div>
+              <div className="slider_content">
+                <p>{item.title}</p>
+                <h1>{item.content}</h1>
+                <p>{item.subtitle}</p>
+                <a class="button" href="shop.html">
+                  shopping now
+                </a>
+              </div>
             </div>
-          </div>
-        </SwiperSlide>
-      </Swiper>
-    </>
+          </SwiperSlide>
+        ))}
+    </Swiper>
   );
 };
 
