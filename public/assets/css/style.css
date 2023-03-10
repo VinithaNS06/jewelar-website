@@ -5231,6 +5231,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   margin-bottom: 13px;
 }
 .product_content h3::before {
+
   background-image: linear-gradient(to right, transparent, #ebebeb 30%, 85%, transparent);
   content: "";
   display: block;
